@@ -8,14 +8,33 @@
     <link href='styleboy.css' rel="stylesheet">
 </head>
 <body>
-
-    <div id = "test"></div>
-
-    <div id = "test2"></div>
-
-    <div id = "test4"></div>
-
-    <div id = "test5"></div>
-
+    <h1>Welcome To The Game Of Nim</h1>
+    <br>
+    <h2>How to Play:</h2>
+    <div class="center_div">
+        In one move, you can remove any number of chips but only from one row. 
+        Select any 'Row button' and click it to REMOVE chips. 
+        After each move click "End Turn" to allow the next player to make their move. 
+        You win if you leave the LAST match for your opponent.
+    </div>
+    <br>
+    <br>
+    <div class="center_div">
+        Please input names for both players and how big youd like the board to be:
+    </div>
+    <br>
+    <form action="./nim.html">
+        <label for="player1 ">Player 1:</label>
+        <input type="text" id="player1" name="player1" placeholder="Bob"><br>
+        <label for="player2">Player 2:</label>
+        <input type="text" id="player2" name="player2" placeholder="Bib"><br>
+        <label for="board_size">Board Size:</label>
+        <select name="board_size" id="board_size">
+            <option value="easy" selected>3 Rows</option>
+            <option value="medium">4 Rows</option>
+            <option value="hard">5 Rows</option>
+        </select><br>
+        <input type="submit" value="Submit">
+      </form>
 </body>
 </html>

@@ -1,0 +1,28 @@
+body
+{
+    
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(image/PlayBoard.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-width: 1024px;
+    min-height: 768px;
+    height: 100%;
+    margin:auto;
+    padding-top: 100px;
+    color: white;
+}
+html
+{
+    background-image:url(image/Generic\ Felt\ Mat.jpeg);   
+}
+.center_div
+{
+    width: 500px; 
+    margin: 0 auto;
+    text-align: center;
+    cursor: pointer;
+}
