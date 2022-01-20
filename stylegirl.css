@@ -1,0 +1,42 @@
+html
+{
+    background-image:url(image/Generic\ Felt\ Mat.jpeg);   
+}
+
+body
+{
+    
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(image/PlayBoard.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-width: 1024px;
+    min-height: 768px;
+    height: 100%;
+    margin:auto;
+    padding-top: 200px;
+    color: white;
+}
+
+.gamePiece {
+    text-align: center;
+    height: 100px;
+    width: 15px;
+    padding: 15px;
+    margin: auto;
+}
+
+.row {
+    text-align: center;
+    display: inline-block;
+    margin:auto;
+}
+
+.selectButton {
+    display: inline-block;
+    margin:auto;
+    text-align: right;
+}
