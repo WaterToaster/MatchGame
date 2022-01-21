@@ -30,36 +30,13 @@ const handleClick = evt =>{
             
         break;
         case 'btn3':
-            if(!(String(answers[2]).split(",")[1] == 'true')){
-                score = score-5;
-                scoreDisplay.innerHTML= score;
-            }
-            else{
-                questnum++;
-                setQuestion(questnum)
-            }
+        
             break;
         case 'btn4':
-                if(!(String(answers[3]).split(",")[1] == 'true')){
-                score = score-5;
-                scoreDisplay.innerHTML= score;
-            }
-            else{
-                questnum++;
-                setQuestion(questnum)
-            }
+            
             break;
         case 'btn5':
-        btn1.style.visibility = "visible";
-        btn2.style.visibility = "visible";
-        btn3.style.visibility = "visible";
-        btn4.style.visibility = "visible";
-        btn5.style.visibility = "hidden";
-        Introduction.style.display = 'none';
-        current.style.display = 'block';
-        scoreDisplay.style.display = 'block';
-        scoreDisplay.innerHTML = score;
-        setQuestion(questnum)
+        
         break;
 
 
