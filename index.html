@@ -23,18 +23,20 @@
         Please input names for both players and how big youd like the board to be:
     </div>
     <br>
-    <form action="./nim.html">
         <label for="player1 ">Player 1:</label>
         <input type="text" id="player1" name="player1" placeholder="Bob"><br>
         <label for="player2">Player 2:</label>
         <input type="text" id="player2" name="player2" placeholder="Bib"><br>
         <label for="board_size">Board Size:</label>
-        <select name="board_size" id="board_size">
-            <option value="easy" selected>Easy</option>
-            <option value="medium">Medium</option>
-            <option value="hard">Hard</option>
-        </select><br>
-        <input type="submit" value="Submit">
-      </form>
+        <br>
+        <button id="easy">
+            <a href="nimEasy.html">Easy</a>
+        </button><br>
+        <button id="medium">
+            <a href="nimMedium.html">Medium</a>
+        </button><br>
+        <button id="hard">
+            <a href="nimHard.html">Hard</a>
+        </button><br>
 </body>
 </html>
